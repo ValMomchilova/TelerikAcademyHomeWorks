@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GSMDevices.Battery">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAEAAAAAAAAABIAAAASAAgAAAAIAAA=</HashCode>
+      <FileName>Devices\Battery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GSMDevices.Call" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIAAAACAAAEAAAAQAIAAEACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices\Call.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GSMDevices.GSM">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAghQQAJAQAAAAAEAAAAiQAQAgEAAAIAAAoAgAAIAAA=</HashCode>
+      <FileName>Devices\GSM.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Call" />
+      <Property Name="Display" />
+      <Property Name="Battery" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GSMDevices.Display" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAACAAAgAAEAIAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Devices\Display.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GSMDevices.DevicesHelper" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices\DevicesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GSMDevices.BatteryTypes" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAABAAAAABA=</HashCode>
+      <FileName>Devices\BatteryTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
