@@ -1,0 +1,17 @@
+Bottleneck:
+file: OrbitsCalculator.cs
+Method: EarthRotation()
+Fix:
+
+	private void EarthRotation()
+        {
+            //double DayforRotationPeriod = Days / EarthRotationPeriod;
+            //for (double step = 0; step <= 360; step += 0.00005)
+            //{
+            //    //EarthRotationAngle = ((double)step) * Days / EarthRotationPeriod;
+            //    EarthRotationAngle = ((double)step) * DayforRotationPeriod;
+
+            //}
+            EarthRotationAngle = 360 * Days / EarthRotationPeriod;
+            Update("EarthRotationAngle");
+        }
