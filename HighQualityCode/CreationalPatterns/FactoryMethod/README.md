@@ -13,10 +13,10 @@ Factory Method
 *Участници:*
 ------------
 
-- Product - дефинира интерфейса на обектите, създавани от "Factory Method"
-- Concrete Product - конкретна имплементация на Product 
-- Creator - декларира Factory Method, който връща обект от тип Product
-- Concrete Creator - предефинира метода Factory Method-а, така че да връща инстанция на Concrete Product.
+- **Product** - дефинира интерфейса на обектите, създавани от "Factory Method"
+- **Concrete Product** - конкретна имплементация на Product 
+- **Creator** - декларира Factory Method, който връща обект от тип Product
+- **Concrete Creator** - предефинира метода Factory Method-а, така че да връща инстанция на Concrete Product.
 Като се очаква Concrete Product и съответно Concrete Creator да бъдат поне два или повече.
 
 Често се създава паралелна йерархия от класове.
